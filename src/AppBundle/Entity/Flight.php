@@ -43,6 +43,7 @@ class Flight
      * @ORM\JoinColumn(nullable=false)
      */
     private $pilot;
+
     /**
      * @ORM\OneToMany(targetEntity="AppBundle\Entity\Flight", mappedBy="flight")
      */
