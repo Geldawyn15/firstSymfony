@@ -128,7 +128,7 @@ class Flight
     /**
      * Get nbFreeSeats
      *
-     * @return int
+     * @return intfor
      */
     public function getNbFreeSeats()
     {
